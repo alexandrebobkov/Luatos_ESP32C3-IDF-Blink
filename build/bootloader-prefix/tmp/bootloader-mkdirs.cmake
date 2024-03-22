@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/alex/esp/esp-idf/components/bootloader/subproject"
-  "C:/Users/alex/esp32c3-blink/build/bootloader"
-  "C:/Users/alex/esp32c3-blink/build/bootloader-prefix"
-  "C:/Users/alex/esp32c3-blink/build/bootloader-prefix/tmp"
-  "C:/Users/alex/esp32c3-blink/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/alex/esp32c3-blink/build/bootloader-prefix/src"
-  "C:/Users/alex/esp32c3-blink/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader"
+  "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix"
+  "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix/tmp"
+  "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix/src"
+  "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/alex/esp32c3-blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/alex/esp32c3-blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

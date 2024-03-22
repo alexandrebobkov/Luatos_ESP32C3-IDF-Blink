@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/alex/esp32c3-blink/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/alex/github/Luatos_ESP32C3-IDF-Blink/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
